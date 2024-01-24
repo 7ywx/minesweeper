@@ -1,0 +1,9 @@
+class Area:
+    area = [[0 for i in range(9)] for j in range(9)]
+    def __print__(self):
+        for i in range(9):
+            for j in range(9):
+                print(self.area[i][j], end="\t")
+            print("\n\n\n")
+area = Area()
+area.__print__()
